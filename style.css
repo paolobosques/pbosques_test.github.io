@@ -1,0 +1,34 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+
+#rectangle {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(223, 164, 164);
+}
+
+
+#button{
+  position: relative;
+  height: 50px;
+  width: 200px;
+  background-color: rgb(215, 91, 91);
+}
+
+.clickable-box {
+  width: 100px;
+  height: 50px;
+  border: 2px solid #000000;
+  /* fill: rgb(215, 91, 91) */
+   background-color: #d41a1a; /* A vibrant blue */
+  color: rgb(255, 255, 255);
+  
+  /* Centering Engine */
+  display: flex;
+  justify-content: center; /* Aligns horizontally */
+  align-items: center;     /* Aligns vertically */
+}
